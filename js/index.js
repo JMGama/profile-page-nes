@@ -1,3 +1,3 @@
 function report() {
-    alert(">> Did you really thought you can REPORT me!? \n >> ... \n >> ha, ha, ha.");
+    alert(">> Did you really think you could REPORT me!? \n >> ... \n >> ha, ha, ha.");
 }
