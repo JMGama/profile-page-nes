@@ -21,7 +21,7 @@ header {
 .bg {
     background-color: #fff;
     padding: 0.5rem 1.5rem;
-    z-index: -1;
+    z-index: 0;
     top: 2px;
     right: 2px;
     bottom: 2px;
