@@ -1,3 +1,12 @@
+html {
+    cursor: url(https://unpkg.com/nes.css/assets/cursor.png), auto;
+}
+
+a,
+button {
+    cursor: url(https://unpkg.com/nes.css/assets/cursor-click.png), pointer !important;
+}
+
 body {
     padding: 0 2rem;
     margin: 2rem;
