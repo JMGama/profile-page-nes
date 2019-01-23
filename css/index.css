@@ -1,21 +1,20 @@
-html {
-    cursor: url(https://unpkg.com/nes.css/assets/cursor.png), auto;
-}
-
-a,
-button {
-    cursor: url(https://unpkg.com/nes.css/assets/cursor-click.png), pointer !important;
-}
-
 body {
     padding: 0 2rem;
-    margin: 2rem;
-
-    background-image: url('../images/background.png');
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 header {
