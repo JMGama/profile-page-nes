@@ -25,14 +25,14 @@ $(function () {
     } else if (time >= 18 && time <= 21) {
         console.log("Evening");
         bg = "5";
-    } else if (time >= 21 && time <= 24) {
+    } else if (time >= 21 && time <= 25) {
         console.log("Late Evening");
         bg = "6";
-    } else if (time >= 24 && time <= 3) {
+    } else if (time >= 1 && time <= 3) {
         console.log("Night");
         bg = "7";
         text = true;
-    } else {
+    } else if (time >= 3 && time <= 6) {
         console.log("Late Night");
         bg = "8";
         text = true;
